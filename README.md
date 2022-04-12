@@ -1,0 +1,2 @@
+You should write two files for this part: echo_tcp_server.py (on R2) and echo_tcp_client.py (on KALI). The client should send a string to the server, and the server should receive it. If the string contains the secret code “SECRET”, the server should return all the digits in the string as well as the total number of digits. If the string does not contain the secret code, the server should respond with the message, “Secret code not found.” The client should receive the output.
+
